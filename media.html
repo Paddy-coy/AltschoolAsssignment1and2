@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEDIA PAGE</title>
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+    <header>
+        <h1> <i>A  Page Displaying all the media Elements.</i></h1>
+    </header>
+  <main aria-label="main-content">
+    <picture>
+        <source media="(max-width: 800px)" srcset="1000004408.jpg">
+        <source media="(max-width:1000px )" srcset="1000000829.jpg">
+        <source media="(max-width: 800px)" srcset="1000026913.jpg">
+        <img src="1000000829.jpg" alt="My image" loading="lazy" width="200" height="400" title="My good looking picture">
+        <img src="1000026913.jpg" alt="" width="200" height="400" loading="lazy">
+        <figcaption>My Picture</figcaption>
+    </picture>
+<figure class="container">
+    <video src="WIN_20240821_06_38_03_Pro.mp4" controls autoplay preload="auto"></video>
+    <figcaption>The Video Element</figcaption>
+   </figure>
+   <figure>
+    <audio src="Asake-Lonely-At-The-Top-(TrendyBeatz.com).mp3" controls autoplay preload="auto" muted></audio>
+    <figcaption>The Audio Element</figcaption>
+</figure>
+<p>
+    <a href="table.html">Table page</a>
+</p>
+  </main>  
+</body>
+</html>

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
+
+
+body {
+    font-size: 2rem;
+    padding: 10%;
+    margin: 4%;
+ background-color:yellow;
+
+}
+#heading-one {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    text-align: center;
+    color: blue;
+}
+.title {
+    text-decoration: underline;
+    color: blue;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Kalnia Glaze", serif;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+article p {
+    line-height: 1.9;
+    letter-spacing: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: purple;
+    text-indent: 3px;
+    font-family: "Edu VIC WA NT Beginner", cursive;
+    font-size: 26px;
+    
+
+    
+
+}
+
+
+a:visited {
+    color: blue;
+}
+.title + .goals {
+    color: green;
+    text-transform: capitalize;
+    line-height: 1.9;
+    font-size: 26px;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+ul {
+    list-style-type:square ;
+    text-align: center;
+    list-style-position: inside;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: green;
+border: 4px solid red;
+}
+ul ::marker {
+    color: darkmagenta;
+}
+details > summary {
+    color: purple;
+}
+.container  em {
+color: green;
+line-height: 1.9;
+text-transform: lowercase;
+letter-spacing: 3px;
+font-style: italic;
+font-family: monospace;
+}
+p:hover {
+    color: peru;
+}
+.another ~ p {
+   line-height: 2.0;
+   font-family: monospace; 
+   letter-spacing: 4px;
+   color: green;
+   
+}
+.another p:hover {
+    color: green;
+}
+.container em:hover {
+    background-color: cornflowerblue;
+}
+strong {
+    color: red;
+}
+footer p {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+background-color: green;
+border: 4px solid red; 
+line-height: 1.8;
+text-align: center;
+}
+a {
+    text-decoration: none;
+}

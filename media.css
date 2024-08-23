@@ -1,0 +1,61 @@
+body {
+    background: black;
+}
+
+
+
+header h1 {
+    color: blue;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 900;
+    text-transform: capitalize;
+    font-size: 3rem;
+    box-sizing: border-box;
+}
+header h1:hover {
+    color: green;
+}
+img {
+    width: 200px;
+    height: 400px;
+    border: 30px solid blue;
+    border-radius: 200px;
+    margin: 20px;
+   
+    
+}
+img + figcaption {
+    color: black;
+    
+}
+figure audio {
+    background: greenyellow;
+    border-radius: 60px;
+    border: 10px solid green;
+
+    
+}
+a:visited {
+    color: blueviolet;
+}
+.container > figcaption {
+    color: red;
+    font-family: monospace;
+    font-style: oblique;
+}
+figure video {
+    width: 200px;
+    height: 400px;
+    background: green;
+    border-radius: 90px;
+}
+audio ~ figcaption {
+    color: crimson;
+    font-family: cursive;
+    font-style: oblique;
+}
+
+
+
+

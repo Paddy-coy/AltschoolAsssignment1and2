@@ -1,0 +1,44 @@
+body {
+    box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   
+}
+table,caption,tr,th,td {
+ border: 4px solid green;
+ background: yellow;
+ padding: 6px;
+ border-collapse: collapse;
+ font-size: 2rem;
+}
+th {
+    color: red;
+    font-weight: bolder;
+    font-style: oblique;
+}
+td, caption {
+    color: rebeccapurple;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: oblique;
+}
+a:visited {
+    color: green;
+}
+.first-heading {
+    color: purple;
+    font-weight: bolder;
+    font-style: oblique;
+    font-family: cursive;
+    text-align: center;
+}
+a {
+    font-size: 2em;
+}
+a:hover {
+    color: red;
+}
+.first-heading:hover {
+    color: cyan;
+}

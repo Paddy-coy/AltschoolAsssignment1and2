@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altschool Form Page</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+</head>
+<body>
+    <header>
+  <figure>
+    <img src="Altschool.jpg" alt="altschool logo" width="400" height="100" loading="lazy">
+</figure>
+    <h2>Already an Altschooler? <a href="https://portal.altschoolafrica.com/auth/login">sign in</a></h2>
+</header>
+  <main aria-label="main-content">
+   <h2>Signup</h2>
+   <article>
+    <h3>Take the next steps to apply at Altschool Africa</h3>
+    <form action="https://altschoolafrica.com" method="post">
+        <p>
+        <label for="firstname">First Name</label>
+   <input type="text" name="firstname" id="firstname" autocomplete="on" autofocus required placeholder="Enter first Name">
+        </p>
+<p>
+    <label for="lastname">Lastname</label>
+    <input type="text" name="lastname" id="lastname" autocomplete="on" required placeholder="Enter last name">
+</p>
+<p>
+    <label for="gender">Gender</label>
+    <select name="gender" id="gender">
+        <option value="female">Female</option>
+        <option value="male">Male</option>
+    </select>
+</p>
+<p>
+    <label for="Birthdate">Date of birth</label>
+    <input type="date" name="Birthdate" id="Birthdate" autocomplete="on" required>
+</p>
+<p>
+    <label for="email">Email Address</label>
+    <input type="email" name="email" id="email" autocomplete="on" required placeholder="Enter email address">
+</p>
+<p>
+  <label for="phone">Phone Number</label> 
+  <input type="tel" name="phone" id="phone" autocomplete="on" required placeholder="08107849232" pattern="[0-9{4}][0-9{3}][0-9]{4}"> 
+</p>
+<p>
+    <label for="countries">Country</label>
+    <input list ="countries" name="countries">
+    <datalist id="countries">
+  <option value="afghanistan">
+  <option value="Albania">
+  <option value="Algeria">
+  <option value="Andora">
+  <option value="Angola">
+  <option value="Antigua">
+  <option value="Argentian">
+  <option value="Armenia">
+  <option value="Australia">
+  <option value="Austria">
+  <option value="Arzebaijan">
+  <option value="Bahamas">
+  <option value="Bahrain">
+  <option value="Bangaladesh">
+  <option value="Barbados">
+  <option value="Belgium">
+  <option value="Belize">
+  <option value="Benin">
+  <option value="Bhutan">
+  <option value="bolivia">
+  <option value="Bosnia herzegovina">
+  <option value="Botswana">
+  <option value="Brazil">
+  <option value="Brunei">
+  <option value="Burkina">
+  <option value="Burundi">
+  <option value="Cambodia">
+  <option value="Cameroon">
+  <option value="Canada">
+  <option value="Cape verde">
+  <option value="Central African rep">
+  <option value="chad">
+  <option value="Chile">
+  <option value="afghanistan">
+  <option value="China">
+  <option value="Colombia">
+  <option value="Comoros">
+  <option value="Costa rica">
+  <option value="Croatia">
+  <option value="Cyprus">
+  <option value="Czech republic">
+  <option value="Denmark">
+  <option value="Djibouti">
+  <option value="afghanistan">
+  <option value="Dominica">
+  <option value="Dominican Republic">
+  <option value="East Timor">
+  <option value="Equador">
+  <option value="Egypt">
+  <option value="El salvador">
+  <option value="Equitorial guinea">
+  <option value="Enritrea">
+  <option value="Estonia">
+  <option value="Ethopia">
+  <option value="Fiji">
+  <option value="finland">
+  <option value="gabon">
+  <option value="gambia">
+  <option value="Georgia">
+  <option value="Germany">
+  <option value="Ghana">
+  <option value="Greece">
+  <option value="Grenada">
+  <option value="Guatemala">
+  <option value="Guinea">
+  <option value="Guinea Bissau">
+  <option value="Nigeria">
+  <option value="Japan">
+      
+      <option value="Lativia">
+    </datalist>
+</p>
+<p>
+    <label for="State_name">State/City of Residence</label>
+    <input list="State_name">
+    
+    <datalist id="State_name">
+        <option value="Abia">
+            <option value="Adamawa">
+            <option value="Akwa Ibom">
+            <option value="Anambra">
+            <option value="Bauchi">
+            <option value="Bayelsa">
+            <option value="Benue">
+            <option value="Borno">
+            <option value="Cross River">
+            <option value="Delta">
+            <option value="Ebonyi">
+            <option value="Edo">
+            <option value="Ekiti">
+            <option value="Enugu">
+            <option value="Gombe">
+            <option value="Imo">
+            <option value="Jigawa">
+            <option value="Kaduna">
+            <option value="Kano">
+            <option value="Kogi">
+            <option value="Kwara">
+            <option value="Lagos">
+            <option value="Nasarawa">
+            <option value="Niger">
+            <option value="Ogun">
+            <option value="Ondo">
+            <option value="Osun">
+            <option value="Oyo">
+            <option value="Plateau">
+            <option value="Rivers">
+            <option value="Sokoto">
+            <option value="Taraba">
+            <option value="Yobe">
+            <option value="Zamfara">
+    </datalist>
+</p>
+<p>
+    <label for="channel">How did you hear about us</label>
+    <input list="channel">
+    <datalist id="channel">
+<option value="Linkedin">
+<option value="Youtube">
+<option value="Friend">
+<option value="Whatsaap">
+<option value="Instagram">
+<option value="Bill board">
+<option value="Sales Officer">
+    <option value="Other">
+    </datalist>
+</p>
+<p>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" placeholder="Enter password" required>
+</p>
+<p>
+    <label for="enter_Password">Confirm Password</label>
+    <input type="password" name="password" id="enter_Password" placeholder="Enter password again">
+</p>
+<p>
+    By Clicking I agree to <a href="https://altschoolafrica.com/terms-and-conditions">Terms of use</a> and aknowledge that i have read the <a href="https://altschoolafrica.com/privacy-policy">Privacy Policy</a>
+</p>
+<button type="submit">Submit</button>
+    </form>
+   </article>
+  </main>
+  <footer>
+    <p>
+        <a href="index.html">Home Page</a>
+    </p>
+  </footer>
+</body>
+</html>
